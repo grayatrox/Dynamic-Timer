@@ -55,18 +55,18 @@ test(){
 error(e){
     msgbox(e,"Exception", 16)
 }
-test4(){
-    global timers
-    timers["timer4"].Stop()
-}
 
 test2(){
     global timers
+    ; Time for the demo to finish
+    ; Stop the countdown
     timers["timer1"].Stop()
     tooltip ""
+    ; END
     msgbox "Test Finished. Exiting."
     ExitApp
 }
+
 test3(){
     Msgbox "You shouldn't see this msgbox"
 }
