@@ -49,7 +49,7 @@ test(){
             timers["timer2"].Start()
         }
         ; Counting the seconds until the end
-        tooltip "Time until test is over: " round(timers["timer2"].interval/1000-timers["timer1"].count+1) "s"
+        tooltip "Time until demo is over: " round(timers["timer2"].interval/1000-timers["timer1"].count+1) "s"
     return
 }
 error(e){
@@ -63,7 +63,7 @@ test2(){
     timers["timer1"].Stop()
     tooltip ""
     ; END
-    msgbox "Test Finished. Exiting."
+    msgbox "Demo Finished. Exiting."
     ExitApp
 }
 
