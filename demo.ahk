@@ -63,7 +63,7 @@ test2(){
     timers["timer1"].Stop()
     tooltip ""
     ; END
-    msgbox "Test Finished. Exiting."
+    msgbox "Demo Finished. Exiting."
     ExitApp
 }
 
